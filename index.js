@@ -15,10 +15,10 @@ let tasks = [
  * 
  */
 function addTask(title) {
-    const task = { isDone: false }
+    const task = { isDone: false,title:title }
 
     // やることのタイトルを設定(このままだと、すべてのタイトルがHello Worldになってしまう！)
-    task.title = "Hello World"
+    //task.title = "Hello World"//
 
     // 以降は無視して良い
     tasks.push(task);
